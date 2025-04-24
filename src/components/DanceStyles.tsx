@@ -12,16 +12,16 @@ const DanceStyles = () => {
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">Dance Styles</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center neon-text">Dance Styles</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {styles.map((style, index) => (
-            <Card key={index} className="card-hover">
+            <Card key={index} className="glass-card card-hover border-white/10">
               <CardHeader>
-                <CardTitle>{style.name}</CardTitle>
+                <CardTitle className="text-white">{style.name}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-primary">{style.level}</p>
-                <p className="text-muted-foreground">{style.description}</p>
+                <p className="text-white/70">{style.description}</p>
               </CardContent>
             </Card>
           ))}
