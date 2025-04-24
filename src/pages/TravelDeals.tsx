@@ -56,23 +56,25 @@ const TravelDeals = () => {
         <div className="glass-card p-6 mb-12">
           <h2 className="text-2xl font-bold mb-4 text-white">Find Dance Travel Packages</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div>
+            <div className="relative">
+              <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-white/50" />
               <Input 
                 placeholder="Destination" 
-                className="bg-transparent border-white/10"
-                icon={MapPin}
+                className="bg-transparent border-white/10 pl-10"
               />
             </div>
-            <div>
+            <div className="relative">
+              <Ticket className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-white/50" />
               <Input 
                 placeholder="Event type" 
-                className="bg-transparent border-white/10" 
+                className="bg-transparent border-white/10 pl-10" 
               />
             </div>
-            <div>
+            <div className="relative">
+              <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-white/50" />
               <Input 
                 placeholder="When" 
-                className="bg-transparent border-white/10"
+                className="bg-transparent border-white/10 pl-10"
               />
             </div>
             <div>
