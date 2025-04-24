@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   NavigationMenu,
@@ -14,7 +14,7 @@ import { Calendar, Users, Map, Plane } from "lucide-react";
 
 const MainNav = () => {
   return (
-    <NavigationMenu className="hidden md:flex">
+    <NavigationMenu className="hidden md:flex bg-background/90">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link to="/">
@@ -26,8 +26,8 @@ const MainNav = () => {
         
         <NavigationMenuItem>
           <NavigationMenuTrigger>Events</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:w-[600px] lg:grid-cols-2">
+          <NavigationMenuContent className="bg-background/95 border border-white/10">
+            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:w-[600px] lg:grid-cols-2 bg-background">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
@@ -83,8 +83,8 @@ const MainNav = () => {
 
         <NavigationMenuItem>
           <NavigationMenuTrigger>Community</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:grid-cols-2">
+          <NavigationMenuContent className="bg-background/95 border border-white/10">
+            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:w-[600px] lg:grid-cols-2 bg-background">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
