@@ -10,8 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { Flag, Calendar, Users, Video, Map, Plane, Upload } from "lucide-react";
+import { Calendar, Users, Map, Plane } from "lucide-react";
 
 const MainNav = () => {
   return (
@@ -28,7 +27,7 @@ const MainNav = () => {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Events</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 w-[400px] md:w-[500px] lg:grid-cols-2">
+            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:w-[600px] lg:grid-cols-2">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
@@ -81,21 +80,26 @@ const MainNav = () => {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>Community</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 w-[400px] md:w-[500px] lg:grid-cols-2">
-              <li>
-                <Link
-                  className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent/20 hover:text-accent-foreground focus:bg-accent/20 focus:text-accent-foreground"
-                  to="/communities"
-                >
-                  <div className="text-sm font-medium leading-none text-white">Explore Communities</div>
-                  <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Find dance groups in Saigon
-                  </p>
-                </Link>
+            <ul className="grid gap-3 p-6 w-[400px] md:w-[500px] lg:grid-cols-2">
+              <li className="row-span-3">
+                <NavigationMenuLink asChild>
+                  <Link
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-primary/20 via-secondary/20 to-accent/20 p-6 no-underline outline-none focus:shadow-md"
+                    to="/communities"
+                  >
+                    <Users className="h-6 w-6 text-primary" />
+                    <div className="mb-2 mt-4 text-lg font-medium text-white">
+                      Dance Communities
+                    </div>
+                    <p className="text-sm leading-tight text-white/80">
+                      Connect with dancers and find your dance community in Saigon
+                    </p>
+                  </Link>
+                </NavigationMenuLink>
               </li>
               <li>
                 <Link
