@@ -12,6 +12,7 @@ import EventsList from "./pages/EventsList";
 import SubmitEvent from "./pages/SubmitEvent";
 import Communities from "./pages/Communities";
 import TravelDeals from "./pages/TravelDeals";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
