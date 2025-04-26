@@ -12,7 +12,6 @@ import EventsList from "./pages/EventsList";
 import SubmitEvent from "./pages/SubmitEvent";
 import Communities from "./pages/Communities";
 import TravelDeals from "./pages/TravelDeals";
-import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
@@ -30,7 +29,6 @@ const App = () => (
           <Route path="/events/submit" element={<SubmitEvent />} />
           <Route path="/communities" element={<Communities />} />
           <Route path="/travel-deals" element={<TravelDeals />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

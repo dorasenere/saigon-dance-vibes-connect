@@ -4,9 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search, Users } from "lucide-react";
+import { useState } from "react";
+import AttendeeForm from "@/components/forms/AttendeeForm";
+import OrganizationForm from "@/components/forms/OrganizationForm";
 
 const Communities = () => {
-  // Example communities (in a real app, these would come from a database)
+  const [showForm, setShowForm] = useState<"none" | "attendee" | "organization">("none");
   const communities = [
     {
       id: 1,
@@ -50,11 +53,33 @@ const Communities = () => {
       <Navbar />
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col items-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 neon-text">Explore Communities</h1>
-          <p className="text-xl text-white/80 text-center max-w-3xl">
+          <h1 className="text-4xl font-bold mb-4 neon-text">Dance Communities</h1>
+          <p className="text-xl text-white/80 text-center max-w-3xl mb-6">
             Connect with dance groups and communities in Ho Chi Minh City
           </p>
+          <div className="flex gap-4">
+            <Button 
+              variant={showForm === "attendee" ? "default" : "outline"}
+              onClick={() => setShowForm(showForm === "attendee" ? "none" : "attendee")}
+            >
+              Register as Dancer
+            </Button>
+            <Button 
+              variant={showForm === "organization" ? "default" : "outline"}
+              onClick={() => setShowForm(showForm === "organization" ? "none" : "organization")}
+            >
+              Partner with Us
+            </Button>
+          </div>
         </div>
+
+        {showForm !== "none" && (
+          <div className="max-w-2xl mx-auto mb-12">
+            <div className="glass-card p-6">
+              {showForm === "attendee" ? <AttendeeForm /> : <OrganizationForm />}
+            </div>
+          </div>
+        )}
 
         <div className="glass-card p-6 mb-8">
           <div className="flex items-center">
