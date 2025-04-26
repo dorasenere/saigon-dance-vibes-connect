@@ -29,7 +29,7 @@ const App = () => (
           <Route path="/events/submit" element={<SubmitEvent />} />
           <Route path="/communities" element={<Communities />} />
           <Route path="/travel-deals" element={<TravelDeals />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
