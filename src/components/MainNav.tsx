@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import {
@@ -10,7 +11,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { Calendar, Users, Map, Plane } from "lucide-react";
+import { Calendar, Users, Video, Book } from "lucide-react";
 
 const MainNav = () => {
   return (
@@ -104,22 +105,22 @@ const MainNav = () => {
               <li>
                 <Link
                   className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent/20 hover:text-accent-foreground focus:bg-accent/20 focus:text-accent-foreground"
-                  to="/partner-finder"
+                  to="/videos"
                 >
-                  <div className="text-sm font-medium leading-none text-white">Partner Finder</div>
+                  <div className="text-sm font-medium leading-none text-white">Video Gallery</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Find a dance partner matching your style and level
+                    Watch and share dance videos
                   </p>
                 </Link>
               </li>
               <li>
                 <Link
                   className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent/20 hover:text-accent-foreground focus:bg-accent/20 focus:text-accent-foreground"
-                  to="/videos"
+                  to="/partner-finder"
                 >
-                  <div className="text-sm font-medium leading-none text-white">Video Gallery</div>
+                  <div className="text-sm font-medium leading-none text-white">Partner Finder</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Watch and share dance videos
+                    Find a dance partner matching your style and level
                   </p>
                 </Link>
               </li>
@@ -142,6 +143,14 @@ const MainNav = () => {
           <Link to="/travel-deals">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Travel Deals
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link to="/blog">
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Blog
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
