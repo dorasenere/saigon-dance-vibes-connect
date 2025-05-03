@@ -16,13 +16,13 @@ const Footer = () => {
               Connecting dance enthusiasts across Ho Chi Minh City since 2023
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/saigondancevibes" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">
+              <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
-              <a href="https://instagram.com/saigondancevibes" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">
+              <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </a>
-              <a href="https://youtube.com/@saigondancevibes" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">
+              <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
               </a>
             </div>
@@ -32,25 +32,25 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-white/70 hover:text-primary transition-colors">Home / Trang chủ</Link>
+                <Link to="/" className="text-white/70 hover:text-primary transition-colors">Home</Link>
               </li>
               <li>
-                <Link to="/events" className="text-white/70 hover:text-primary transition-colors">Events / Sự kiện</Link>
+                <Link to="/events" className="text-white/70 hover:text-primary transition-colors">Events</Link>
               </li>
               <li>
-                <Link to="/communities" className="text-white/70 hover:text-primary transition-colors">Communities / Cộng đồng</Link>
+                <Link to="/communities" className="text-white/70 hover:text-primary transition-colors">Communities</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-white/70 hover:text-primary transition-colors">Blog / Bài viết</Link>
+                <Link to="/blog" className="text-white/70 hover:text-primary transition-colors">Blog</Link>
               </li>
               <li>
-                <Link to="/travel-deals" className="text-white/70 hover:text-primary transition-colors">Travel Deals / Ưu đãi du lịch</Link>
+                <Link to="/travel-deals" className="text-white/70 hover:text-primary transition-colors">Travel Deals</Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Dance Styles / Phong cách nhảy</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Dance Styles</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-white/70 hover:text-primary transition-colors">Zouk</a>
@@ -65,17 +65,17 @@ const Footer = () => {
                 <a href="#" className="text-white/70 hover:text-primary transition-colors">Kizomba</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-primary transition-colors">All Styles / Tất cả</a>
+                <a href="#" className="text-white/70 hover:text-primary transition-colors">All Styles</a>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact / Liên hệ</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
             <ul className="space-y-2">
               <li className="flex gap-2 text-white/70">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>District 1, Ho Chi Minh City / Quận 1, TP HCM</span>
+                <span>District 1, Ho Chi Minh City</span>
               </li>
               <li className="flex gap-2 text-white/70">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
