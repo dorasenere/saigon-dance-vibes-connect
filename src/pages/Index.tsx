@@ -4,6 +4,8 @@ import HeroSection from "@/components/HeroSection";
 import FeaturedEvents from "@/components/FeaturedEvents";
 import DanceStyles from "@/components/DanceStyles";
 import VideoShowcase from "@/components/VideoShowcase";
+import PhotoGallery from "@/components/PhotoGallery";
+import BlogPreview from "@/components/BlogPreview";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,6 +15,8 @@ const Index = () => {
       <HeroSection />
       <FeaturedEvents />
       <VideoShowcase />
+      <PhotoGallery />
+      <BlogPreview />
       <DanceStyles />
       <Footer />
     </div>
