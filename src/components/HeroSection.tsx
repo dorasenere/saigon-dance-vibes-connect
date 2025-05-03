@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Search } from "lucide-react";
+import { Search, Calendar, Instagram } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -26,17 +26,24 @@ const HeroSection = () => {
           </div>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-wrap gap-4 justify-center">
           <Link to="/events">
             <Button size="lg" className="bg-primary hover:bg-primary/90 neon-text">
-              Explore Events
+              <Calendar className="mr-2 h-5 w-5" />
+              Join Our Next Event
             </Button>
           </Link>
-          <Link to="/communities">
+          <Link to="/events/submit">
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              Join Community
+              Submit Your Event
             </Button>
           </Link>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/10">
+              <Instagram className="mr-2 h-5 w-5" />
+              Follow on Instagram
+            </Button>
+          </a>
         </div>
       </div>
     </div>
