@@ -16,8 +16,6 @@ const Footer = () => {
             </div>
             <p className="text-white/70 mb-4">
               Connecting Zouk enthusiasts across Ho Chi Minh City since 2023
-              <br />
-              <span className="text-white/50 text-sm">Kết nối những người yêu nhảy Zouk tại Thành phố Hồ Chí Minh từ 2023</span>
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">
@@ -38,31 +36,26 @@ const Footer = () => {
               <li>
                 <Link to="/" className="text-white/70 hover:text-primary transition-colors">
                   Home
-                  <span className="text-white/40 text-sm ml-2">Trang chủ</span>
                 </Link>
               </li>
               <li>
                 <Link to="/events" className="text-white/70 hover:text-primary transition-colors">
                   Events
-                  <span className="text-white/40 text-sm ml-2">Sự kiện</span>
                 </Link>
               </li>
               <li>
                 <Link to="/communities" className="text-white/70 hover:text-primary transition-colors">
                   Communities
-                  <span className="text-white/40 text-sm ml-2">Cộng đồng</span>
                 </Link>
               </li>
               <li>
                 <Link to="/blog" className="text-white/70 hover:text-primary transition-colors">
                   Blog
-                  <span className="text-white/40 text-sm ml-2">Blog</span>
                 </Link>
               </li>
               <li>
                 <Link to="/travel-deals" className="text-white/70 hover:text-primary transition-colors">
                   Travel Deals
-                  <span className="text-white/40 text-sm ml-2">Ưu đãi du lịch</span>
                 </Link>
               </li>
             </ul>
@@ -103,7 +96,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Newsletter</h3>
             <p className="text-white/70 mb-4">
               Get updates on events and news
-              <span className="block text-white/50 text-sm">Cập nhật sự kiện và tin tức</span>
             </p>
             <form className="space-y-3">
               <Input 
