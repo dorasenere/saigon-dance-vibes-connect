@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 const blogPosts = [
   {
     id: 1,
-    title: "10 Tips for Bachata Beginners",
-    excerpt: "Starting your Bachata journey? Here are essential tips to get you moving with confidence on the dance floor.",
+    title: "10 Tips for Zouk Beginners",
+    excerpt: "Starting your Zouk journey? Here are essential tips to get you moving with confidence on the dance floor.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
     date: "April 24, 2025",
     author: "Maria Sanchez",
-    category: "Bachata"
+    category: "Zouk"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const blogPosts = [
   {
     id: 3,
     title: "Dance Events to Look Forward to This Summer",
-    excerpt: "Summer 2025 is packed with exciting dance festivals and socials. Mark your calendar for these must-attend events.",
+    excerpt: "Summer 2025 is packed with exciting Zouk festivals and socials. Mark your calendar for these must-attend events.",
     image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952",
     date: "April 15, 2025",
     author: "Sophia Tran",
@@ -36,8 +36,8 @@ const blogPosts = [
   },
   {
     id: 4,
-    title: "The Evolution of Latin Dance in Vietnam",
-    excerpt: "How Latin dance styles have found their way to Vietnam and evolved with local influences over the years.",
+    title: "The Evolution of Zouk Dance in Vietnam",
+    excerpt: "How Zouk dance styles have found their way to Vietnam and evolved with local influences over the years.",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
     date: "April 10, 2025",
     author: "Michael Le",
@@ -52,7 +52,7 @@ const Blog = () => {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4 neon-text">Dance Blog</h1>
+            <h1 className="text-4xl font-bold mb-4 neon-text">Zouk Blog</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               Stay updated with the latest news, dance tips, and community stories
             </p>

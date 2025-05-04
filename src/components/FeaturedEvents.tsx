@@ -15,14 +15,14 @@ const FeaturedEvents = () => {
     },
     {
       id: 2,
-      title: "Bachata Workshop",
+      title: "Brazilian Zouk Workshop",
       date: "April 28, 2025",
       location: "District 3",
       type: "Workshop"
     },
     {
       id: 3,
-      title: "Latin Dance Party",
+      title: "Zouk Party Night",
       date: "May 1, 2025",
       location: "District 7",
       type: "Party"
@@ -33,7 +33,7 @@ const FeaturedEvents = () => {
     <section className="py-16 px-4 bg-muted/5">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold neon-text">Upcoming Events</h2>
+          <h2 className="text-3xl font-bold neon-text">Upcoming Zouk Events</h2>
           <Link to="/events">
             <Button variant="link" className="text-primary">View All Events</Button>
           </Link>

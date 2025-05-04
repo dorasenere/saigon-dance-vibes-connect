@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-2">
               <Flag className="h-6 w-6 text-primary" />
               <span className="text-xl font-bold neon-text">
-                Saigon Dance Vibes
+                The Saigon Zouk Crew
               </span>
             </Link>
           </div>

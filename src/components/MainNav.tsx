@@ -37,10 +37,10 @@ const MainNav = () => {
                   >
                     <Calendar className="h-6 w-6 text-primary" />
                     <div className="mb-2 mt-4 text-lg font-medium text-white">
-                      Dance Events
+                      Zouk Events
                     </div>
                     <p className="text-sm leading-tight text-white/80">
-                      Discover Zouk, Bachata, and other dance events in Saigon
+                      Discover Zouk dance events in Saigon
                     </p>
                   </Link>
                 </NavigationMenuLink>
@@ -74,7 +74,7 @@ const MainNav = () => {
                 >
                   <div className="text-sm font-medium leading-none text-white">Submit an Event</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Add your dance event to our platform
+                    Add your Zouk event to our platform
                   </p>
                 </Link>
               </li>
@@ -94,10 +94,10 @@ const MainNav = () => {
                   >
                     <Users className="h-6 w-6 text-primary" />
                     <div className="mb-2 mt-4 text-lg font-medium text-white">
-                      Dance Communities
+                      Zouk Community
                     </div>
                     <p className="text-sm leading-tight text-white/80">
-                      Connect with dancers and find your dance community in Saigon
+                      Connect with Zouk dancers and find your dance community in Saigon
                     </p>
                   </Link>
                 </NavigationMenuLink>
@@ -109,7 +109,7 @@ const MainNav = () => {
                 >
                   <div className="text-sm font-medium leading-none text-white">Video Gallery</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Watch and share dance videos
+                    Watch and share Zouk dance videos
                   </p>
                 </Link>
               </li>
@@ -120,7 +120,7 @@ const MainNav = () => {
                 >
                   <div className="text-sm font-medium leading-none text-white">Partner Finder</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Find a dance partner matching your style and level
+                    Find a Zouk dance partner matching your style and level
                   </p>
                 </Link>
               </li>
@@ -131,7 +131,7 @@ const MainNav = () => {
                 >
                   <div className="text-sm font-medium leading-none text-white">Chat Groups</div>
                   <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                    Connect with other dancers
+                    Connect with other Zouk dancers
                   </p>
                 </Link>
               </li>
