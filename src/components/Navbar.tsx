@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Flag, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
 import MainNav from "./MainNav";
 import { useState } from "react";
@@ -19,7 +19,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Link to="/" className="flex items-center gap-2">
-              <Flag className="h-6 w-6 text-primary" />
+              <img 
+                src="/lovable-uploads/28705380-4d9e-4ef5-a7de-5b84c2d874e6.png" 
+                alt="The Saigon Zouk Crew Logo" 
+                className="h-10 w-auto"
+              />
               <span className="text-xl font-bold neon-text">
                 The Saigon Zouk Crew
               </span>

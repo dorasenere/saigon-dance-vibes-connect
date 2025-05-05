@@ -1,5 +1,3 @@
-
-import { Flag } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -11,7 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Flag className="h-6 w-6 text-primary" />
+              <img 
+                src="/lovable-uploads/28705380-4d9e-4ef5-a7de-5b84c2d874e6.png" 
+                alt="The Saigon Zouk Crew Logo" 
+                className="h-10 w-auto" 
+              />
               <span className="text-xl font-bold neon-text">The Saigon Zouk Crew</span>
             </div>
             <p className="text-white/70 mb-4">
